@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Organizations>
+	<Organization id="1" name="一级机构">
+	<Organization id="2" name="二级机构">
+	  <Organization id="3" name="三级机构">
+		<Organization id="4" name="四级机构"/>
+	  </Organization>
+	  <Dvr id="491521" serverHost="1.1.1.1" serverPort="1" loginUser="1" password="1" deviceType="Hanbang_IDvr" name="1"/>
+	</Organization>
+	<Dvr id="327681" serverHost="192.168.203.235" serverPort="8000" loginUser="admin" password="12345" deviceType="Hik_Embed_HC" name="235">
+	  <Channel id="393217" channelNo="0" matrixCode="-1" name="235通道一2aa"/>
+	  <Channel id="393218" channelNo="1" matrixCode="-1" name="01000000000252023"/>
+	  <Channel id="393219" channelNo="2" matrixCode="-1" name="010000000003设备235通"/>
+	  <Channel id="393220" channelNo="3" matrixCode="-1" name="010000000004莫干山路"/>
+	  <Channel id="393221" channelNo="4" matrixCode="-1" name="010000000005CH5"/>
+	  <Channel id="393222" channelNo="5" matrixCode="-1" name="010000000006中联大厦"/>
+	  <Channel id="393223" channelNo="6" matrixCode="-1" name="010000000007Camera07"/>
+	  <Channel id="393224" channelNo="7" matrixCode="-1" name="010000000008C8"/>
+	  <Channel id="393225" channelNo="8" matrixCode="-1" name="010000000009Camera 09"/>
+	  <Channel id="393226" channelNo="9" matrixCode="-1" name="010000000010Camera 10"/>
+	  <Channel id="393227" channelNo="10" matrixCode="-1" name="010000000011Camera 11"/>
+	  <Channel id="393228" channelNo="11" matrixCode="-1" name="010000000012Camera 12"/>
+	  <Channel id="393229" channelNo="12" matrixCode="-1" name="010000000013Camera 13"/>
+	  <Channel id="393230" channelNo="13" matrixCode="-1" name="010000000014Camera 14"/>
+	  <Channel id="393231" channelNo="14" matrixCode="-1" name="010000000015Camera 15"/>
+	  <Channel id="393232" channelNo="15" matrixCode="-1" name="010000000016Camera 16"/>
+	</Dvr>
+	<Dvr id="131074" serverHost="192.168.203.233" serverPort="8000" loginUser="admin" password="12345" deviceType="Hik_Embed_HC" name="233">
+	  <Channel id="196609" channelNo="0" matrixCode="-1" name="通道1333"/>
+	  <Channel id="196610" channelNo="1" matrixCode="-1" name="通道2300000000002222222222"/>
+	  <Channel id="196611" channelNo="2" matrixCode="-1" name="莫干山路文三路交叉口"/>
+	  <Channel id="196612" channelNo="3" matrixCode="-1" name="莫干山路文一路"/>
+	  <Channel id="196613" channelNo="4" matrixCode="-1" name="莫干山路中联大厦"/>
+	  <Channel id="196614" channelNo="5" matrixCode="-1" name="asasdadasda5"/>
+	  <Channel id="196615" channelNo="6" matrixCode="-1" name="通道2312345678998765432145"/>
+	  <Channel id="196616" channelNo="7" matrixCode="-1" name="通道8dfdffffff"/>
+	</Dvr>
+	</Organization>
+	<Organization id="5" name="一级机构1">
+	</Organization>
+</Organizations>

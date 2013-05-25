@@ -1,0 +1,498 @@
+Login
+{
+	border: 4px;
+	border-top:32px;
+	border-image: url(./icons/login.png);
+	height: 466px;
+	width: 304px;
+}
+Login #bgWidget
+{	 
+	border-image: url(./icons/background-login.png);
+}
+
+Login #widget
+{
+	background-color: rgb(63, 65, 69);
+}
+
+Login #logoLabel
+{
+	qproperty-icon: url(./icons/logo.png);
+}
+
+Login #label
+{
+	color:white;
+}
+
+#exitBtn
+{
+	border: 0px;
+	background-color: transparent;
+	image: url(./icons/close_normal.png);
+}
+
+#exitBtn:hover
+{
+	image: url(./icons/close_hover.png);
+}
+
+
+
+#bgWidget
+{
+	
+}
+
+#userEdit
+{
+	image: url(./icons/user_normal.png);
+	image-position:left;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border:2px solid rgb(161,161,161);
+	border-bottom: 0px;
+	height: 33px;
+	width:223px;
+}
+
+#userEdit:focus
+{
+	/*color: blue;*/
+	image: url(./icons/user_hover.png);
+	image-position: left;
+	border: 2px solid rgb(101,137,198);
+}
+
+#pwdEdit
+{
+	/*color: gray;*/
+	image: url(./icons/password_normal.png);
+	image-position:left;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border:2px solid rgb(161,161,161);
+	border-top:1px solid rgb(161,161,161);
+	height: 33px;
+	width:223px;
+}
+
+#pwdEdit:focus
+{
+	/*color: blue;*/
+	image: url(./icons/password_hover.png);
+	image-position: left;
+	border: 2px solid rgb(101,137,198);
+}
+
+#loginBtn
+{
+	color:white;
+	border:1px solid rgb(25,29,32);
+	border-radius:3px;
+	background-color:qlineargradient(spread:pad, x1:0, y1:0.994, x2:0, y2:0, stop:0 rgba(53, 54, 58, 255), stop:0.497175 rgba(63, 65, 69, 255), stop:1 rgba(73, 76, 79, 255));
+
+}
+
+
+/*
+#loginBtn
+{
+	background-color:qlineargradient(spread:pad, x1:0, y1:1, x2:0.00564972, y2:0, 
+				stop:0 rgba(11, 58, 95, 255), 
+				stop:0.491525 rgba(15, 77, 127, 255), 
+				stop:1 rgba(19, 95, 156, 255));
+	color:white;
+	border-radius:5px;
+}
+
+#loginBtn:hover
+{
+	background-color:qlineargradient(spread:pad, x1:0, y1:1, x2:0.00564972, y2:0, 
+					stop:0 rgba(11, 58, 95, 255), 
+					stop:0.491525 rgba(15, 77, 127, 255), 
+					stop:1 rgba(1, 183, 243, 255));
+	color:white;
+	border-radius:5px;
+}
+
+#loginBtn:pressed
+{
+	background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0.994318, 
+			stop:0 rgba(11, 58, 95, 255), 
+			stop:0.491525 rgba(15, 77, 127, 255), 
+			stop:1 rgba(19, 95, 156, 255));
+	color:white;
+	border-radius:5px;
+}
+*/
+#OptWidget
+{
+	height: 29px;
+	background-color: transparent;
+}
+
+#optBtn
+{
+	qproperty-icon:url(./icons/seticon.png);
+
+background-color:qlineargradient(spread:pad, x1:0, y1:1, x2:0.00564972, y2:0, 
+					stop:0 rgba(205, 205, 205, 255), 
+					stop:0.491525 rgba(222, 222, 222, 255), 
+					stop:1 rgba(237, 237, 237, 255));
+	color:#575757;
+	border-radius:3px;
+	border:1px solid #b3b3b3;
+
+	height: 29px;
+	width: 54px;
+}
+
+#serverWidget{
+	background-color: rgb(210, 220, 230);
+	width: 404px;
+}
+
+#optBtn:hover{
+	background-color:qlineargradient(spread:pad, x1:0, y1:1, x2:0.00564972, y2:0, 
+				stop:0 rgba(244, 244, 244, 255), 
+				stop:0.525424 rgba(230, 230, 230, 255), 
+				stop:0.531073 rgba(242, 242, 242, 255), 
+				stop:1 rgba(254, 254, 254, 255));
+}
+
+#optBtn:pressed{
+	background-color:qlineargradient(spread:pad, x1:0, y1:1, x2:0.00564972, y2:0, 														stop:0 rgba(252, 252, 252, 255), 
+				stop:0.244318 rgba(232, 232, 232, 255), 
+				stop:0.508475 rgba(210, 210, 210, 255), 
+				stop:0.519774 rgba(219, 219, 219, 255),
+				stop:1 rgba(229, 229, 229, 255));
+
+}
+
+TitleWidget
+{
+    border: 1px solid rgb(40,37,33);
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    /*background-color: rgb(19, 77, 125);*/
+	background-color: rgb(63, 65, 69);
+}
+
+TitleWidget #title 
+{
+    height: 25px;
+    border: 1px solid rgb(40,37,33);
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    /*border-bottom: transparent;*/
+    background-color: rgb(63, 65, 69);
+}
+TitleWidget #title #logo
+{
+    border-image: url(./icons/logo.png);	
+}
+TitleWidget #title #appName
+{
+    padding-left:3px;
+}
+
+TitleWidget #title #minBtn
+{
+	border: 0px;
+	/*background-color: transparent;*/
+	image: url(./icons/min_normal.png);
+}
+
+TitleWidget #title #minBtn:hover
+{    
+    image: url(./icons/min_hover.png);
+}
+
+TitleWidget #title #maxBtn
+{
+	border: 0px;
+	/*background-color: transparent;*/
+	image: url(./icons/max_normal.png);
+}
+
+TitleWidget #title #maxBtn:hover
+{
+    /*background-color: rgb(19, 77, 125);*/
+    image: url(./icons/max_hover.png);
+}
+
+TitleWidget #title #closeBtn
+{
+	border: 0px;
+	/*background-color: transparent;*/
+	image: url(./icons/close_normal.png);
+}
+
+TitleWidget #title #closeBtn:hover
+{
+	image: url(./icons/close_hover.png);
+}
+
+TitleWidget #contextWidget {
+    border: 1px solid rgb(40,37,33);
+    border-top-color: rgb(67,61,52);
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    background-color: rgb(57,51,41);
+}
+
+MainWidget #toolwidget
+{
+    height: 25px;
+    border: 1px solid rgb(40,37,33);
+    border-bottom: transparent;
+    /*background-color: rgb(161, 212, 255);
+	background-color: rgb(255, 255, 255);*/
+	background-image:url(./icons/background-login.png) repeat-x;
+}
+/*
+MainWidget #widget #cardConfigBtn
+{
+    background-color: rgb(161, 212, 255);
+}
+
+MainWidget #widget #screenControlBtn
+{
+    background-color: rgb(161, 212, 255);
+}
+
+MainWidget #widget #screenConfigBtn
+{
+    background-color: rgb(161, 212, 255);
+}
+*/
+
+CardConfigWidget
+{
+    height: 25px;
+    border: 1px solid rgb(40,37,33);
+    border-bottom: transparent;
+    background-color: rgb(237, 252, 255);
+}
+
+/*CardConfigWidget #screenBar QToolButton
+{
+	min-width:40px;
+	min-height:40px;
+}*/
+
+
+
+ScreenControlWidget
+{
+    height: 25px;
+    border: 1px solid rgb(40,37,33);
+    border-bottom: transparent;    
+	background-color: rgb(243,243,245);
+}
+
+BaseTreeWidget
+{
+    height: 25px;
+    border: 1px solid rgb(40,37,33);
+    border-bottom: transparent;
+    background-color: rgb(237, 252, 255);	
+}
+
+/*ScreenControlWidget #orgTreewidget
+{
+    height: 25px;
+    border: 1px solid rgb(40,37,33);
+    border-bottom: transparent;
+    background-color: rgb(237, 252, 255);	
+}
+*/
+
+ScreenConfigWidget
+{
+    height: 25px;
+    border: 1px solid rgb(40,37,33);
+    border-bottom: transparent;
+    background-color: rgb(237, 252, 255);	
+}
+
+
+
+MainWidget QToolButton[module="TOOLBUTTON"]
+{
+	min-height:48px;
+	min-width:48px;
+	max-height:48px;
+	max-width:48px;	 
+}
+
+MainWidget QToolButton[module="TOOLBUTTON"]:hover,MainWidget QToolButton[module="TOOLBUTTON"]:pressed
+{	
+	background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(218, 218, 218, 255), stop:0.497175 rgba(226, 226, 226, 255), stop:1 rgba(240, 240, 240, 255)); 
+}
+
+
+MainWidget #cardConfigBtn
+{
+	border:none;
+	qproperty-icon: url(./icons/action-0.png);	
+}
+MainWidget #screenControlBtn
+{
+	border:none;
+	qproperty-icon: url(./icons/action-1.png);	
+}
+MainWidget #screenConfigBtn
+{
+	border:none;
+	qproperty-icon: url(./icons/action-2.png);	
+}
+MainWidget #pollingSchemeBtn
+{
+	border:none;
+	qproperty-icon: url(./icons/action-3.png);	
+}
+
+MainWidget #cardConfigBtn:checked
+{
+	border:none;
+	qproperty-icon: url(./icons/set-checked.png);	
+}
+MainWidget #screenControlBtn:checked
+{
+	border:none;
+	qproperty-icon: url(./icons/preview-checked.png);	
+}
+MainWidget #screenConfigBtn:checked
+{
+	border:none;
+	qproperty-icon: url(./icons/split-checked.png);	
+}
+MainWidget #pollingSchemeBtn:checked
+{
+	border:none;
+	qproperty-icon: url(./icons/circulate-checked.png);	
+}
+
+
+
+ToolBarWidget QToolButton
+{	
+	border-radius:3px;
+	background-color:qlineargradient(spread:pad, x1:0, y1:0.994, x2:0, y2:0, stop:0 rgba(225, 225, 225, 255), stop:0.497175 rgba(240, 240, 240, 255), stop:1 rgba(247, 247, 247, 255));
+	border:1px solid rgb(164,164,164);
+}
+
+ToolBarWidget QToolButton:pressed,#addListBtn:hover
+{	
+	background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(218, 218, 218, 255), stop:0.497175 rgba(226, 226, 226, 255), stop:1 rgba(240, 240, 240, 255)); 
+}
+
+#setWinBtn2
+{
+	qproperty-icon:url(./icons/2X2.png);	
+}
+#setWinBtn3
+{
+	qproperty-icon:url(./icons/3X3.png);	
+}
+
+
+PollingSchemeWidget QPushButton,CardConfigWidget QPushButton,SelectGroupDlg QPushButton,QMessageBox QPushButton
+{
+	color:white;
+	min-height:26px;
+	min-width:77px;
+	max-height:26px;
+	max-width:77px;
+	border:1px solid rgb(25,29,32);
+	border-radius:3px;
+	background-color:qlineargradient(spread:pad, x1:0, y1:0.994, x2:0, y2:0, stop:0 rgba(53, 54, 58, 255), stop:0.497175 rgba(63, 65, 69, 255), stop:1 rgba(73, 76, 79, 255));
+}
+
+PollingSchemeWidget QPushButton:hover,CardConfigWidget QPushButton:hover,SelectGroupDlg QPushButton:hover,QMessageBox QPushButton:hover,#loginBtn:hover
+{ 
+	background-color:qlineargradient(spread:pad, x1:0, y1:0.994, x2:0, y2:0, stop:0 rgba(39, 124, 245, 255), stop:0.497175 rgba(53, 152, 247, 255), stop:1 rgba(65, 178, 249, 255));
+	border:1px solid rgb(13,71,163);
+}
+
+
+PollingSchemeWidget #widget,SelectGroupDlg,#pollingMainWidget
+{
+    background-color: rgb(243,243,245);
+}
+
+
+#addListBtn
+{
+	qproperty-icon:url(./icons/group.png);	
+		border-radius:3px;
+	background-color:qlineargradient(spread:pad, x1:0, y1:0.994, x2:0, y2:0, stop:0 rgba(225, 225, 225, 255), stop:0.497175 rgba(240, 240, 240, 255), stop:1 rgba(247, 247, 247, 255));
+	border:1px solid rgb(164,164,164);
+}
+
+
+ScreenToolBar,CardConfigWidget #widget
+{
+    background-color: rgb(243,243,245);
+}
+
+ScreenToolBar
+{
+    border:2px solid rgb(164,164,164);
+}
+
+ScreenToolBar QToolButton:hover
+{
+    background-color:qlineargradient(spread:pad, x1:0, y1:, x2:0.994, y2:0, stop:0 rgba(39, 124, 245, 255), stop:0.497175 rgba(53, 152, 247, 255), stop:1 rgba(65, 178, 249, 255));
+	border:1px solid rgb(13,71,163);
+}
+
+QSpinBox
+{
+	min-width:48px;
+	font-size:17px;
+}
+
+ScreenToolBar QToolButton[module="screenIdBtn"]
+{
+	min-width:64px;
+	min-height:45px;
+	border-radius:3px;
+	background-color:rgb(114,203,243);
+	font-size:30px;
+	color:white;
+	font: bold; 
+}
+
+ScreenToolBar #LtoolBtn
+{
+    qproperty-icon:url(./icons/left.png);
+	border:1px solid rgb(164,164,164);
+}
+
+ScreenToolBar #RtoolBtn
+{
+    qproperty-icon:url(./icons/right.png);
+	border:1px solid rgb(164,164,164);
+}
+
+ScreenToolBar #LtoolBtn:hover
+{
+    image:url(./icons/left-hover.png);
+}
+
+ScreenToolBar #RtoolBtn:hover
+{
+    qproperty-icon:url(./icons/right-hover.png);
+}
+
+QMessageBox
+{
+	background-color: rgb(243,243,245);
+}
